@@ -1,2 +1,2 @@
-# Empty dependencies file for bulletinwithselector.
+# Empty dependencies file for cspractice.
 # This may be replaced when dependencies are built.

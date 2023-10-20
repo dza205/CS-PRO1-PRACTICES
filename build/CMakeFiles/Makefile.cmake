@@ -32,7 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Templates/CPackConfig.cmake.in"
-  "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CMakeLists.txt"
+  "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/CMakeLists.txt"
   "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeSystem.cmake"
@@ -82,5 +82,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
-  "CMakeFiles/bulletinwithselector.dir/DependInfo.cmake"
+  "CMakeFiles/cspractice.dir/DependInfo.cmake"
   )

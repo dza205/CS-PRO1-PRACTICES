@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bulletinwithselector.exe"
+			"path" : "cspractice.exe"
 		},
 		{
-			"path" : "bulletinwithselector.pdb"
+			"path" : "cspractice.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "bulletinwithselector::@6890427a1f51a3e7e1df",
+	"id" : "cspractice::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "bulletinwithselector",
-	"nameOnDisk" : "bulletinwithselector.exe",
+	"name" : "cspractice",
+	"nameOnDisk" : "cspractice.exe",
 	"paths" : 
 	{
 		"build" : ".",

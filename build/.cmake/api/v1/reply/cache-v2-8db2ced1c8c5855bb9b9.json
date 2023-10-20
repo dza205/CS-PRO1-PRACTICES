@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/build"
+			"value" : "c:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -487,7 +487,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1"
+			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -571,7 +571,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/bulletinwithselector"
+			"value" : "C:/Program Files (x86)/cspractice"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -791,7 +791,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "bulletinwithselector"
+			"value" : "cspractice"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1511,11 +1511,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/Git/cmd/git.exe"
 		},
 		{
 			"name" : "HGCOMMAND",
@@ -1642,7 +1642,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "bulletinwithselector_BINARY_DIR",
+			"name" : "cspractice_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1651,10 +1651,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/build"
+			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build"
 		},
 		{
-			"name" : "bulletinwithselector_IS_TOP_LEVEL",
+			"name" : "cspractice_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1666,7 +1666,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "bulletinwithselector_SOURCE_DIR",
+			"name" : "cspractice_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1675,7 +1675,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1"
+			"value" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES"
 		}
 	],
 	"kind" : "cache",

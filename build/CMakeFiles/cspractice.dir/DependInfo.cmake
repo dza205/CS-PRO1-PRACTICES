@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/main.c" "CMakeFiles/bulletinwithselector.dir/main.c.obj" "gcc" "CMakeFiles/bulletinwithselector.dir/main.c.obj.d"
+  "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/main.c" "CMakeFiles/cspractice.dir/main.c.obj" "gcc" "CMakeFiles/cspractice.dir/main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1"
+CMAKE_SOURCE_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build"
+CMAKE_BINARY_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/build/CPackSourceConfig.cmake"
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,9 +116,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build\CMakeFiles" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build\CMakeFiles" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -510,24 +510,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named bulletinwithselector
+# Target rules for targets named cspractice
 
 # Build rule for target.
-bulletinwithselector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bulletinwithselector
-.PHONY : bulletinwithselector
+cspractice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cspractice
+.PHONY : cspractice
 
 # fast build rule for target.
-bulletinwithselector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bulletinwithselector.dir\build.make CMakeFiles/bulletinwithselector.dir/build
-.PHONY : bulletinwithselector/fast
+cspractice/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cspractice.dir\build.make CMakeFiles/cspractice.dir/build
+.PHONY : cspractice/fast
 
 main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bulletinwithselector.dir\build.make CMakeFiles/bulletinwithselector.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cspractice.dir\build.make CMakeFiles/cspractice.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -535,7 +535,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bulletinwithselector.dir\build.make CMakeFiles/bulletinwithselector.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cspractice.dir\build.make CMakeFiles/cspractice.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -543,7 +543,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bulletinwithselector.dir\build.make CMakeFiles/bulletinwithselector.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cspractice.dir\build.make CMakeFiles/cspractice.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -585,7 +585,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... bulletinwithselector
+	@echo ... cspractice
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

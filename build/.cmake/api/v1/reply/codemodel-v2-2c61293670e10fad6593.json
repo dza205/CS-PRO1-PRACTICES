@@ -55,7 +55,7 @@
 					[
 						0
 					],
-					"name" : "bulletinwithselector",
+					"name" : "cspractice",
 					"targetIndexes" : 
 					[
 						0,
@@ -290,9 +290,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "bulletinwithselector::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bulletinwithselector-Debug-d1a0c2bff2179b74f9be.json",
-					"name" : "bulletinwithselector",
+					"id" : "cspractice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cspractice-Debug-691379a5743c97f83c5a.json",
+					"name" : "cspractice",
 					"projectIndex" : 0
 				}
 			]
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/build",
-		"source" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1"
+		"build" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build",
+		"source" : "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES"
 	},
 	"version" : 
 	{

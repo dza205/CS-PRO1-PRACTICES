@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1"
+CMAKE_SOURCE_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build"
+CMAKE_BINARY_DIR = "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build"
 
 # Utility rule file for ExperimentalCoverage.
 
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalCoverage.dir/clean:
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/clean
 
 CMakeFiles/ExperimentalCoverage.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\build\CMakeFiles\ExperimentalCoverage.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build" "C:\Users\Usuario\Desktop\DEV UDC\Proyectos Pro1\CS-PRO1-PRACTICES\build\CMakeFiles\ExperimentalCoverage.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/depend
 
