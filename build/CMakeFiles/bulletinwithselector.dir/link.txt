@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\bulletinwithselector.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\bulletinwithselector.dir/objects.a @CMakeFiles\bulletinwithselector.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\bulletinwithselector.dir/objects.a -Wl,--no-whole-archive -o bulletinwithselector.exe -Wl,--out-implib,libbulletinwithselector.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bulletinwithselector.dir\linkLibs.rsp
