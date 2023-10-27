@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-mingw32-make"
-	BuildStamp="20231026-1816-Experimental"
+	BuildStamp="20231027-1127-Experimental"
 	Name="DESKTOP-272EMIA"
 	Generator="ctest-3.27.6"
 	CompilerName="C:/msys64/ucrt64/bin/g++.exe"
@@ -24,11 +24,11 @@
 	ProcessorClockFrequency="2712"
 	>
 	<Testing>
-		<StartDateTime>Oct 26 23:20 Hora de verano romance</StartDateTime>
-		<StartTestTime>1698355225</StartTestTime>
+		<StartDateTime>Oct 27 23:42 Hora de verano romance</StartDateTime>
+		<StartTestTime>1698442977</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 26 23:20 Hora de verano romance</EndDateTime>
-		<EndTestTime>1698355225</EndTestTime>
+		<EndDateTime>Oct 27 23:42 Hora de verano romance</EndDateTime>
+		<EndTestTime>1698442977</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
