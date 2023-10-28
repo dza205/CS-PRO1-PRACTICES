@@ -262,8 +262,77 @@ int ex15(){
     }
 }
 int ex16(){
-    
+    int month;
+    printf("Introduzca el numero del mes\n");
+    scanf(" %s",&month);
+    if(month = 4){
+        printf("Ya que el mes es febrero, por favor introduzca el año para saber si es bisiesto\n");
+        int año = 0;
+        scanf("%i",&año);
+        if(año%4 == 0 || año%100 == 0 || año%400 == 0){
+            printf("El año es bisiesto\n");
+        }
+    } // para resolver este ejercicio utilizar el switch con el numero del mes. colocar el if dentro del caso de febrero
 }
+int ex17(){
+    // lo mismo que los de comparacion de edad pero sacando el imc primero
+}
+int ex18(){
+int i =0;
+float notas[6];
+int contador = 0;
+for(i;i<6;i++){
+printf("Por favor introduzca la nota en orden, en formato XX.XX, y introduzca 0 si no se ha presentado\n");
+scanf("%f",&notas[i]); // fills out the array
+if(notas[i] == 0){
+    contador++;
+}
+}
+float sum = 0;
+int b = 0;
+for (b;b<6;b++){
+    sum = sum + notas[b];
+}
+    
+    float mediaconceros = sum/6;
+    float mediasinceros = sum/(6-contador);
+    printf("%f %f",mediaconceros,mediasinceros);
+// el resto del ejercicio se realiza mediante dos cadenas de if, una para cada media
+}
+int ex19(){
+    int numberdivided = 0;
+    for(numberdivided;numberdivided<100;numberdivided++){
+        if((numberdivided%2)!=0){
+            printf("%i Impar\n",numberdivided);
+        }
+        else if((numberdivided%2)==0){
+            printf("%i par\n",numberdivided);
+        }
+    }
+}
+// saltados del 23 al 27
+int ex20(){
+int i = 0;
+long int num1 = 0;
+long int num2 = 0;
+long int num3 = 0;
+int c = 0;
+int b = 0;
+for (i;i<=100;i++){
+    num1 = num1+i;
+}
+while(b<=100){
+  num2 = num2+b;
+  b++;
+}
+do{
+  num3 = num3+c;
+  c++;
+}
+while(c<=100);
+printf("%li %li %li",num1,num2,num3);
+}
+
 int main(){
     printf("Input the number of the exercise you'd like to execute\n");
     int exnum = 0;
@@ -310,6 +379,25 @@ switch(exnum)
     case(13):
     ex13();
     break;
+    case(14):
+    ex14();
+    break;
+    case(15):
+    ex15();
+    break;
+    case(16):
+    ex16();
+    break;
+    case(18):
+    ex18();
+    break;
+    case(19):
+    ex19();
+    break;
+    case(20):
+    ex20();
+    break;    
+
 }
 
 }
