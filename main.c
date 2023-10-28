@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
+#include <ctype.h>
 int ex1(){
     printf("Input a whole number\n");
     int num = 0;
@@ -155,7 +156,114 @@ int ex11(){
  printf("-------\n");
  printf("%i",result);
 }
-
+int ex12(){
+    char select = '0';
+    printf("Por favor escriba la tecla indicada en el menu\n");
+    printf("B.- BEBÉ\n");
+    printf("A.- ADOLESCENTE\n");
+    printf("M.- MUJER\n");
+    printf("H.- HOMBRE\n");
+    
+    scanf(" %c",&select); // to avoid scnaf fuckups put space where newline or other special characters would be
+    switch(select){
+        case('B'):
+        printf("Es un bebé");
+        break;
+        case('A'):
+        printf("Es un adolescente");
+        break;
+        case('M'):
+        printf("Es una mujer");
+        break;
+        case('H'):
+        printf("Es un hombre");
+        break;
+    }
+}
+int ex13(){
+    int age = 0;
+    char name[100];
+    printf("Por favor introduzca su nombre, con una ocupacion menor de 100 caracteres, y posteriormente su edad\n");
+    scanf("  %s %i",&name,&age);
+    if(age<32){
+        printf("Es joven");
+    }
+    if(age>32 && age<75){
+        printf("Es adulta");
+    }
+    if(age>75){
+        printf("Es anciana");
+    }
+}
+int ex14(){
+    char character = '0';
+    printf("Introduzca un caracter:  ");
+    scanf("%c",&character);
+    switch(character){
+        case('a'): case('A'): case('e'): case('E'): case('i'): case('I'): case('o'): case('O'): case('u'): case ('U'):
+        printf("Es una vocal");
+        break;
+        case('/'): case('*'): case('-'): case('+'):
+        printf("Es un caracter special");
+        break;
+        default:
+        printf("Es una consonante");
+        break;
+        case('0'): case('1'): case('2'): case('3'): case('4'): case('5'): case('6'): case('7'): case('8'): case ('9'):
+        printf("Es un digito");
+        break;
+    }
+}
+int ex15(){
+    int parit = 0;
+    int rest = 0;
+    printf("Piense un numero\n");
+    printf("Es el numero par(2) o impar(1):  ");
+    scanf("%i",&parit);
+    printf("Cual es el resto de ese numero dividido entre 5?\n");
+    scanf("%i",&rest);
+    if(parit == 1){
+        switch(rest){
+            case(0):
+            printf("El numero en el que piensa es 5");
+            break;
+            case(1):
+            printf("El numero en el que piensa es 1");
+            break;
+            case(2):
+            printf("El numero en el que piensa es 7");
+            break;
+            case(3):
+            printf("El numero en el que piensa es 3");
+            break;
+            case(4):
+            printf("El numero en el que piensa es 9");
+            break;
+        }
+    }
+    else{
+        switch(rest){
+            case(0):
+            printf("El numero en el que piensa es 10");
+            break;
+            case(1):
+            printf("El numero en el que piensa es 6");
+            break;
+            case(2):
+            printf("El numero en el que piensa es 2");
+            break;
+            case(3):
+            printf("El numero en el que piensa es 8");
+            break;
+            case(4):
+            printf("El numero en el que piensa es 4");
+            break;
+        }
+    }
+}
+int ex16(){
+    
+}
 int main(){
     printf("Input the number of the exercise you'd like to execute\n");
     int exnum = 0;
@@ -195,6 +303,12 @@ switch(exnum)
     break;
     case(11):
     ex11();
+    break;
+    case(12):
+    ex12();
+    break;
+    case(13):
+    ex13();
     break;
 }
 
