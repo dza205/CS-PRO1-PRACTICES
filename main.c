@@ -331,8 +331,50 @@ do{
 }
 while(c<=100);
 printf("%li %li %li",num1,num2,num3);
+} 
+int ex21(){ // para el examen recuerda que el while y el do while existen
+int numero = 0;
+int suma = 0;
+printf("Introduzca los numeros, con un 0 para finalizar la suma\n");
+do{
+    scanf("%d",&numero);
+    suma = suma+numero;
+}while(numero!=0);
+printf("la suma es %i",suma);
 }
+int ex22(){
+    float numero = 0;
+    float suma = 0;
+    int contador = 0;
+    printf("Introduzca los numeros deseados y presione ENTER para finalizar el programa\n");
+    do{
+        scanf("%f",&numero);
+        suma = suma + numero;
+        contador++;
+    }while(getchar()!='\n');
+    float media = suma/contador;
+    printf("La media es %f",media);
 
+}
+int ex23(){
+    printf("Por favor introduzca los numeros\n");
+    int numero = 0;
+    int suma =0;
+    int sumaimpar = 0;
+    do{
+    scanf("%d",&numero);
+    if(numero%2 == 0){
+        suma = suma+numero;
+    }
+    else{
+        sumaimpar = sumaimpar + numero;
+    }
+}while(numero!=0);
+printf("Suma par = %i\n",suma);
+printf("Suma impar = %i",sumaimpar);
+
+
+}
 int main(){
     printf("Input the number of the exercise you'd like to execute\n");
     int exnum = 0;
@@ -396,6 +438,15 @@ switch(exnum)
     break;
     case(20):
     ex20();
+    break;
+    case(21):
+    ex21();
+    break;
+    case(22):
+    ex22();
+    break;
+    case(23):
+    ex23();
     break;    
 
 }
