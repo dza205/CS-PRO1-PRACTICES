@@ -372,8 +372,89 @@ int ex23(){
 }while(numero!=0);
 printf("Suma par = %i\n",suma);
 printf("Suma impar = %i",sumaimpar);
+}
+int ex24(){
+printf("Presione la tecla c para mostrar la lista de años bisiestos del siglo XX\n");
+    long int añoxx = 1900;
+    long int añoxix = 1800;
+    do{
+        if((añoxix%4 == 0) && (añoxix%100 != 0)){
+          printf("El año %i es bisiesto",añoxix);  
+        }
+        añoxix++;
+    }while(añoxix<=1899 && getchar()!='c');
+    do{
+    if((añoxx%4 == 0) && (añoxx%100 != 0)){
+          printf("El año %i es bisiesto",añoxx);  
+        }
+        añoxx++;
+    }while(añoxx<=1999);
+exit(ex24);
+}
+int ex25(){
+    int pot = 0;
+    int num = 0;
+    printf("Por favor introduzca el numero seguido de la potencia a la que desea elevarlo\n");
+    scanf("%i %i",&num,&pot);
+    if(pot>0){
+    int finalnum = pow(num,pot);
+    printf("%i is the number",finalnum);
+    }else{
+        printf("Please input a positive power number\n");
+    }
+}
+int ex26(){
+    int num = 0;
+    printf("Por favor introduzca un numero entero positivo para calcular su factorial\n");
+    scanf("%i",&num);
+    int i = num-1;
+    for(i;i>1;i--){
+        num = num*i;
+    }
+    printf("%i is the factorial of the number you input",num);
 
+}
+int ex27(){
+    printf("Por favor introduzca un valor mayor que zero para obtener el tamaño de la sucesion de Fibonacci\n");
+    int size = 0;
+    int i = 2;
+    scanf("%i",&size);
+    printf("0 1");
+    for(i;i<=size;i++){
+        int printnum = (i-1)+(i-2); // doesnt work but its the formula stated in wiki wtf?
+        printf(" %i",printnum);
+    }
+}
+int ex28(){
+    printf("Introduzca numeros o letras, sino se le sumaran errores. Para finalizar el programa escriba el caracter F\n");
+    int counter = 0;
+    char charscan = '0';
+    do{
+        scanf(" %c",&charscan);
+        if(!isalpha(charscan) && !isdigit(charscan)){
+            counter++;
+        }
+    }while(charscan != 'F'); // avoid getchar it is dogshit use charscan and put a finish condition here
+    printf("Used ha tenido %i errores",counter);// runs into infinite loop if you use getchar
+}
+int ex29(){
+    printf("Por favor introduzca un numero\n");
+    int num = 0;
+    int quot = 1;
+    int rest = 0;
+    scanf("%i",&num);
+    do{
+        rest = num%2;
+        num = num/2;
+        printf("%i",rest);
 
+    }while(num>=1);
+}
+int ex30(){
+    printf("I) Indicar el numero de quinielas a generar\n");
+    printf("M) Mostrar quinielas\n");
+    printf("S) Salir");
+    scanf()
 }
 int main(){
     printf("Input the number of the exercise you'd like to execute\n");
@@ -448,7 +529,24 @@ switch(exnum)
     case(23):
     ex23();
     break;    
-
+    case(24):
+    ex24();
+    break;
+    case(25):
+    ex25();
+    break;
+    case(26):
+    ex26();
+    break;
+    case(27):
+    ex27();
+    break;
+    case(28):
+    ex28();
+    break;
+    case(29):
+    ex29();
+    break;
 }
 
 }
