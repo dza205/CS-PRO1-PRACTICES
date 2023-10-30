@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
+#include <string.h>
 int ex1(){
     printf("Input a whole number\n");
     int num = 0;
@@ -451,10 +452,28 @@ int ex29(){
     }while(num>=1);
 }
 int ex30(){
-    printf("I) Indicar el numero de quinielas a generar\n");
-    printf("M) Mostrar quinielas\n");
-    printf("S) Salir");
-    scanf()
+    // el mastermind. 
+    // for the game's purposes we will imagine that the input is secret
+    int i = 0;
+    printf("Please input the secret code as a string \n");
+    char secretcode[4];
+    scanf("%s",secretcode);
+    char publiccode[4];
+    int i = 0;
+    int blkpeg = 0;
+    int wpeg = 0;
+    printf("You have 12 tries to guess the correct code. For every color in the correct posion one black peg will be added. For every correct color a white one will be added\n");
+    do{
+    printf("Please enter your guess, 4 letters\n");
+    scanf("%s",publiccode);
+    if(strcmp(secretcode[i],publiccode[i]) == 0){
+        blkpeg++;
+    }else if(trcmp(secretcode,publiccode[i]) == 0 ){
+        wpeg++;
+    }
+    i++;
+    }while(i<13);
+    printf("You're finished");
 }
 int main(){
     printf("Input the number of the exercise you'd like to execute\n");
@@ -546,6 +565,9 @@ switch(exnum)
     break;
     case(29):
     ex29();
+    break;
+    case(30):
+    ex30();
     break;
 }
 
