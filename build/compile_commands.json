@@ -1,8 +1,8 @@
 [
 {
-  "directory": "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=gnu99 -o CMakeFiles\\cspractice.dir\\main.c.obj -c \"C:\\Users\\Usuario\\Desktop\\DEV UDC\\Proyectos Pro1\\CS-PRO1-PRACTICES\\main.c\"",
-  "file": "C:/Users/Usuario/Desktop/DEV UDC/Proyectos Pro1/CS-PRO1-PRACTICES/main.c",
-  "output": "CMakeFiles/cspractice.dir/main.c.obj"
+  "directory": "/home/ohomechamadodedos/UdC/CS-PRO1-PRACTICES/build",
+  "command": "/usr/bin/gcc   -g -std=gnu99 -o CMakeFiles/pro1.dir/main.c.o -c /home/ohomechamadodedos/UdC/CS-PRO1-PRACTICES/main.c",
+  "file": "/home/ohomechamadodedos/UdC/CS-PRO1-PRACTICES/main.c",
+  "output": "CMakeFiles/pro1.dir/main.c.o"
 }
 ]

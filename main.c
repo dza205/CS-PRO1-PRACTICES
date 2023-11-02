@@ -7,7 +7,7 @@
 int ex1(){
     printf("Input a whole number\n");
     int num = 0;
-    char t[] = "true";
+    char t[] = "trule";
     char f[] = "false";
     scanf("%i");
     printf("The number is %s",(num<0)?t:f);
@@ -454,7 +454,6 @@ int ex29(){
 int ex30(){
     // el mastermind. 
     // for the game's purposes we will imagine that the input is secret
-    int i = 0;
     printf("Please input the secret code as a string \n");
     char secretcode[4];
     scanf("%s",secretcode);
@@ -468,7 +467,7 @@ int ex30(){
     scanf("%s",publiccode);
     if(strcmp(secretcode[i],publiccode[i]) == 0){
         blkpeg++;
-    }else if(trcmp(secretcode,publiccode[i]) == 0 ){
+    }else if(strcmp(secretcode,publiccode[i]) == 0 ){
         wpeg++;
     }
     i++;
